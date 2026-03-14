@@ -1,6 +1,6 @@
 **静态站点（无需 GitHub Pages）**：将 [web/](web/) 目录下所有文件上传到你的服务器或任意静态托管即可展示，无需 Jekyll、Ruby 或 GitHub Actions。详见 [web/README.md](web/README.md)。
 
-Visit **[willongwang.github.io/liu-lab](https://willongwang.github.io/liu-lab)** 🚀（或 [willongwang.github.io/Liu-s-lab](https://willongwang.github.io/Liu-s-lab)）  
+Visit **[willongwang.github.io/nexus-lab](https://willongwang.github.io/nexus-lab)** 🚀（或 [willongwang.github.io/Liu-s-lab](https://willongwang.github.io/Liu-s-lab)）  
 部署到 HKUST 子域名说明见 [docs/deploy-ust.md](docs/deploy-ust.md)。
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17228741.svg)](https://doi.org/10.5281/zenodo.17228741)
