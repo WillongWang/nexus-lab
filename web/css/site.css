@@ -61,28 +61,25 @@ a { color: var(--primary); transition: color var(--transition); overflow-wrap: b
 a:hover { color: var(--text); }
 a:not([href]) { color: var(--text); }
 
-/* Background utility */
+/* Background utility — 通用占位，section 里用 */
 .background {
   position: relative;
   background: var(--background);
   color: var(--text);
   z-index: 1;
 }
-/* 有背景图时让底层透出，按原站显示（提高不透明度使背景图清晰） */
+/* header/footer 背景图：inline style 直接写，无需 ::before */
 header.background.has-bg,
 footer.background.has-bg {
-  background: transparent;
+  color: #f5f5f5;
 }
-.background::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: var(--image);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  opacity: 0.5;
-  z-index: -1;
+header.background.has-bg a,
+footer.background.has-bg a {
+  color: #f5f5f5;
+}
+header.background.has-bg a:hover,
+footer.background.has-bg a:hover {
+  color: #7dd3fc;
 }
 
 /* Header */
@@ -205,8 +202,8 @@ h5 { font-size: 1.4rem; }
 h6 { font-size: 1.25rem; }
 :where(h1, h2, h3, h4, h5, h6) > .icon { margin-right: 1em; color: var(--light-gray); }
 p { margin: 20px 0; text-align: justify; line-height: var(--spacing); }
-ul { margin: 12px 0 24px 0; padding-left: 1.25em; list-style-position: outside; }
-li { margin: 6px 0; }
+ul { margin: 6px 0 12px 0; padding-left: 1.4em; list-style-position: outside; text-align: left; }
+li { margin: 0.25em 0; line-height: 1.5; text-align: left; }
 
 /* Buttons */
 .button-wrapper { display: contents; }
@@ -427,8 +424,8 @@ section:has(.highlights-grid) { padding-left: 100px; padding-right: 100px; }
 section:has(.project-detail) { background: var(--background); }
 .project-detail h2 { font-weight: var(--bold); margin-top: 36px; }
 .project-detail h2:first-of-type { margin-top: 0; }
-.project-detail ul { margin: 12px 0 24px 0; padding-left: 1.25em; list-style-position: outside; }
-.project-detail li { margin: 6px 0; }
+.project-detail ul { margin: 6px 0 16px 0; padding-left: 1.4em; list-style-position: outside; text-align: left; }
+.project-detail li { margin: 0.25em 0; line-height: 1.5; text-align: left; }
 .project-detail p { margin: 12px 0; }
 
 /* Portrait / team grid */
