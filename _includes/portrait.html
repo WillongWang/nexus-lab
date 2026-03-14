@@ -1,0 +1,78 @@
+{% if include.lookup %}
+  {% assign member = site.members 
+    | where_exp: "member", "member.slug == include.lookup"
+    | first
+  %}
+{% elsif include.slug %}
+  {% assign member = site.members
+    | where_exp: "member", "member.slug == include.slug"
+    | first
+  %}
+  {% unless member %}
+    {% assign member = include %}
+  {% endunless %}
+{% else %}
+  {% assign member = include %}
+{% endif %}
+
+{% assign type = site.data.types[member.role] %}
+
+<div class="portrait-wrapper portrait-group--{{ member.role }}">
+  <a
+    {% if member.profile_url %}
+      href="{{ member.profile_url }}"
+      target="_blank"
+      rel="noopener noreferrer"
+    {% endif %}
+    class="portrait{% unless member.profile_url %} portrait--no-link{% endunless %}"
+    data-style="{{ include.style }}"
+    aria-label="{{ member.name | default: "member link" | regex_strip }}"
+  >
+    {% if type and member.role == 'lab-leader' %}
+      {% include icon.html icon=type.icon %}
+    {% endif %}
+
+    {% if member.image %}
+      <img
+        src="{{ member.image | relative_url | uri_escape }}"
+        class="portrait-image"
+        alt="member portrait"
+        loading="lazy"
+        {% include fallback.html %}
+      >
+    {% else %}
+      <div class="portrait-image-placeholder"></div>
+    {% endif %}
+
+    {% if member.name %}
+      <span class="portrait-name">
+        {{ member.name }}
+      </span>
+    {% endif %}
+
+    {% if member.role == 'lab-leader' %}
+      {% if member.description or type %}
+        <span class="portrait-description">
+          {{ member.description | default: type.description }}
+        </span>
+      {% endif %}
+    {% else %}
+      {% if member.research_areas %}
+        <span class="portrait-description">
+          <span class="portrait-research-label">Research Areas</span><br>
+          {{ member.research_areas }}
+        </span>
+      {% endif %}
+    {% endif %}
+
+    {% if member.affiliation %}
+      <span class="portrait-affiliation">
+        {{ member.affiliation }}
+      </span>
+    {% endif %}
+
+    {% if member.group %}
+      <span class="portrait-group-label">{{ member.group }}</span>
+    {% endif %}
+  </a>
+</div>

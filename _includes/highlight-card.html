@@ -1,0 +1,88 @@
+{% assign card_images = include.images | split: "|" %}
+{% assign card_captions = include.captions | split: "|" %}
+{% assign card_descs = include.descs | split: "|" %}
+{% assign card_id = include.title | slugify %}
+{% assign no_links = include.no_links | default: false %}
+{% assign layout_h = include.layout == "horizontal" %}
+
+<div class="highlight-card {% if layout_h %}highlight-card--horizontal{% endif %}" data-carousel-card>
+  <div class="hc-carousel" data-carousel>
+    {% if include.images and include.images != "" %}
+      <div class="hc-carousel-viewport">
+        <div class="hc-carousel-track">
+          {% for img in card_images %}
+            {% assign img_clean = img | strip %}
+            <div class="hc-carousel-slide">
+              {% if include.link and no_links != true %}
+                <a href="{{ include.link | relative_url | uri_escape }}">
+                  <img src="{{ img_clean | relative_url | uri_escape }}" loading="lazy" alt="{{ include.title }}">
+                </a>
+              {% else %}
+                <img src="{{ img_clean | relative_url | uri_escape }}" loading="lazy" alt="{{ include.title }}">
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+        {% if card_images.size > 1 %}
+          <button class="hc-btn hc-prev" aria-label="Previous">&#8249;</button>
+          <button class="hc-btn hc-next" aria-label="Next">&#8250;</button>
+          <div class="hc-dots">
+            {% for img in card_images %}
+              <button class="hc-dot {% if forloop.first %}active{% endif %}" aria-label="Slide {{ forloop.index }}"></button>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+      {% if include.captions and include.captions != "" %}
+        <div class="hc-captions">
+          {% for cap in card_captions %}
+            {% assign cap_clean = cap | strip %}
+            <p class="hc-caption {% if forloop.first %}active{% endif %}">{{ cap_clean }}</p>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="hc-carousel-placeholder">
+        <div class="hc-placeholder-inner">
+          <i class="fa-solid fa-image"></i>
+          <span>Images coming soon</span>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="hc-body">
+    {% if include.title %}
+      <p class="hc-title">
+        {% if include.link and no_links != true %}
+          <a class="hc-title-link" href="{{ include.link | relative_url | uri_escape }}">{{ include.title }}</a>
+        {% else %}
+          {{ include.title }}
+        {% endif %}
+      </p>
+    {% endif %}
+
+    {% if include.subtitle %}
+      <p class="hc-subtitle">{{ include.subtitle }}</p>
+    {% endif %}
+
+    <div class="hc-descs">
+      {% if layout_h and include.description %}
+        <p class="hc-desc active">{{ include.description | strip }}</p>
+      {% elsif card_descs.size > 0 %}
+        {% for desc in card_descs %}
+          {% assign desc_clean = desc | strip %}
+          {% if desc_clean != "" %}
+            <p class="hc-desc {% if forloop.first %}active{% endif %}">{{ desc_clean }}</p>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    {% if include.link and include.link != "" and include.show_learn_more != false and no_links != true %}
+      <a class="hc-learn-link" href="{{ include.link | relative_url | uri_escape }}">
+        Learn more <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    {% endif %}
+  </div>
+</div>

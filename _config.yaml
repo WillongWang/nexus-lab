@@ -1,0 +1,73 @@
+# site properties and page defaults
+title: NEXUS Lab
+subtitle: for Business Intelligence and Decision Analytics
+description: Jia Liu is an Associate Professor of Marketing and affiliated Associate Professor in IEDA at the Hong Kong University of Science and Technology (HKUST). Her research spans consumer behavior modeling, big data analytics, recommendation systems, revenue management, global branding, and AIGC in business.
+header: images/lab.png
+footer: images/lab.png
+proofer: false
+
+# site social media and other links
+links:
+  email: jialiu@ust.hk
+  orcid: 0000-0002-0279-724X
+  google-scholar: 25p7qyQAAAAJ
+  # TODO: github not listed on website
+  # TODO: twitter not listed on website
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ''
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: 'members'
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: 'posts'
+    values:
+      layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# jekyll theme
+theme: null
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+  - .nojekyll
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff

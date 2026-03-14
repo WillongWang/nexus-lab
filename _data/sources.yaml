@@ -1,0 +1,21 @@
+# TODO: Add publication DOIs here. Publications include works in Marketing Science,
+# Management Science, Journal of Marketing Research, Journal of Marketing.
+# Specific DOIs not listed on website — please add manually.
+# Example:
+# - id: doi:10.xxxx/xxxxx          # 必填，DOI / PubMed / arXiv 等标识符
+#   type: paper                     # 可选，覆盖类型（paper / book / preprint 等）
+#   title: "论文标题"               # 可选，覆盖自动抓取的标题
+#   description: "一句话描述"       # 可选，显示在引用卡片下方的摘要
+#   date: 2024-01-15                # 可选，覆盖日期
+#   image: https://...              # 可选，引用卡片的封面图
+#   buttons:
+#     - type: source                # 可选按钮，类型：source / website / manubot / app 等
+#       text: "Source Code"
+#       link: https://github.com/...
+#     - type: website
+#       link: https://...
+#   tags:
+#     - consumer behavior           # 可选标签，用于筛选
+#     - big data
+#   repo: owner/repo-name           # 可选，自动显示 GitHub star 数
+[]

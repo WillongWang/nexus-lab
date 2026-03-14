@@ -1,0 +1,93 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: doi:10.1177/00222429251343590
+  title: 'Dynamic Effects of TV Ad Suspension on Keyword Search: Evidence from the
+    U.S. Telecom Industry'
+  authors:
+  - Jia Liu
+  - Shawndra Hill
+  - David Rothschild
+  publisher: Journal of Marketing
+  date: '2025-08-01'
+  link: https://doi.org/hbq2nn
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/00222437221134237
+  title: 'The Daily Me Versus the Daily Others: How Do Recommendation Algorithms Change
+    User Interests? Evidence from a Knowledge-Sharing Platform'
+  authors:
+  - Jia Liu
+  - Ziwei Cong
+  publisher: Journal of Marketing Research
+  date: '2023-02-12'
+  link: https://doi.org/g8xgsr
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:13580548
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:13580548
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1287/mnsc.2020.3827
+  title: 'Content-Based Model of Web Search Behavior: An Application to TV Show Search'
+  authors:
+  - Jia Liu
+  - Olivier Toubia
+  - Shawndra Hill
+  publisher: Management Science
+  date: '2021-10-01'
+  link: https://doi.org/gpg7f5
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1287/mksc.2020.1277
+  title: 'Frontiers: Moment Marketing: Measuring Dynamics in Cross-Channel Ad Effectiveness'
+  authors:
+  - Jia Liu
+  - Shawndra Hill
+  publisher: Marketing Science
+  date: '2021-01-01'
+  link: https://doi.org/ghs5rc
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1177/0022243720911894
+  title: Understanding Consumer Dynamic Decision Making Under Competing Loyalty Programs
+  authors:
+  - Jia Liu
+  - Asim Ansari
+  publisher: Journal of Marketing Research
+  date: '2020-04-10'
+  link: https://doi.org/ghg7mf
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11129-019-09217-3
+  title: Search query formation by strategic consumers
+  authors:
+  - Jia Liu
+  - Olivier Toubia
+  publisher: Quantitative Marketing and Economics
+  date: '2019-08-30'
+  link: https://doi.org/hbq2np
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1287/mksc.2018.1112
+  title: A Semantic Approach for Estimating Consumer Content Preferences from Online
+    Search Queries
+  authors:
+  - Jia Liu
+  - Olivier Toubia
+  publisher: Marketing Science
+  date: '2018-11-01'
+  link: https://doi.org/gh7hhx
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml

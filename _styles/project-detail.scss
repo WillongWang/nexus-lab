@@ -1,0 +1,49 @@
+---
+---
+
+/* 确保 project-detail 所在 section 背景统一 */
+section:has(.project-detail) {
+  background: var(--background) !important;
+}
+
+.project-subtitle {
+  color: var(--primary);
+  font-size: 1.15rem;
+  margin: 20px 0;
+}
+
+.project-subtitle em {
+  font-style: italic;
+}
+
+.project-detail h2 {
+  font-weight: var(--bold);
+  margin-top: 36px;
+}
+
+.project-detail h2:first-of-type {
+  margin-top: 0;
+}
+
+.project-detail ul {
+  margin: 12px 0 24px 0;
+  padding-left: 24px;
+}
+
+.project-detail li {
+  margin: 6px 0;
+}
+
+.project-detail p {
+  margin: 12px 0;
+}
+
+.project-detail .full-width-image,
+.project-detail img.full-width-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 24px 0;
+}
