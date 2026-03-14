@@ -11,7 +11,7 @@
   <link href="../css/site.css" rel="stylesheet">
 </head>
 <body>
-  <header class="background has-bg" style="--image: url('../images/lab.png')">
+  <header class="background has-bg" style="background-color:#2a2a2a;background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../images/lab.png');background-size:cover;background-repeat:no-repeat;background-position:50% 50%">
     <a href="../" class="home">
       <span class="logo"><img src="../images/logo.svg" alt="logo" onerror="this.style.display='none'"></span>
       <span class="title-text">
@@ -31,7 +31,7 @@
     <section>
       <h1><i class="icon fa-solid fa-users"></i> People</h1>
       <p>We are currently recruiting Postdoc, PhD students, and RAs.</p>
-      <ul style="text-align: left; display: inline-block;">
+      <ul style="display: inline-block;">
         <li><strong>Postdoc</strong>: research papers on AI agents, LLMs, or diffusion models; interested in algorithm design or data visualization for business applications.</li>
         <li><strong>Ph.D. in IEDA</strong>: must be familiar with the foundation of operation research and its applications in supply chains, and have experience in big data (e.g., network) analytics.</li>
         <li><strong>RA</strong>: must be familiar with LLMs and/or diffusion models, frontend/backend/database for platform design.</li>
@@ -39,7 +39,7 @@
       <p>Please send your CV and transcripts to <a href="mailto:jialiu@ust.hk">jialiu@ust.hk</a> if interested.</p>
 
       <h2>Team</h2>
-      <div class="grid portrait-card-grid" style="--repeat: 5;">
+      <div class="grid portrait-card-grid">
         <div class="portrait-wrapper portrait-group--lab-leader">
           <a href="https://jialiu.people.ust.hk/" class="portrait" target="_blank" rel="noopener noreferrer">
             <div class="portrait-image-box"><img src="../images/jia_liu.jpg" class="portrait-image" alt="Jia Liu" loading="lazy" onerror="this.outerHTML='<div class=\'portrait-image-placeholder\'></div>'"></div>
@@ -90,7 +90,15 @@
           </a>
         </div>
       </div>
-      <div class="grid portrait-card-grid portrait-card-grid--ra" style="--repeat: 5;">
+      <div class="grid portrait-card-grid portrait-card-grid--ra">
+        <div class="portrait-wrapper portrait-group--ra">
+          <a href="https://github.com/WillongWang" class="portrait" target="_blank" rel="noopener noreferrer">
+            <div class="portrait-image-box"><img src="../images/jing_wang.jpg" class="portrait-image" alt="Jing Wang" loading="lazy" onerror="this.outerHTML='<div class=\'portrait-image-placeholder\'></div>'"></div>
+            <span class="portrait-name">Jing Wang</span>
+            <span class="portrait-affiliation">HKUST</span>
+            <span class="portrait-group-label">RA</span>
+          </a>
+        </div>
         <div class="portrait-wrapper portrait-group--ra">
           <a href="https://linkedin.com/in/han-zhu-054143281" class="portrait" target="_blank" rel="noopener noreferrer">
             <div class="portrait-image-box"><img src="../images/han_zhu.jpg" class="portrait-image" alt="Han Zhu" loading="lazy" onerror="this.outerHTML='<div class=\'portrait-image-placeholder\'></div>'"></div>
@@ -107,18 +115,10 @@
             <span class="portrait-group-label">RA</span>
           </a>
         </div>
-        <div class="portrait-wrapper portrait-group--ra">
-          <a href="https://github.com/WillongWang" class="portrait" target="_blank" rel="noopener noreferrer">
-            <div class="portrait-image-box"><img src="../images/jing_wang.jpg" class="portrait-image" alt="Jing Wang" loading="lazy" onerror="this.outerHTML='<div class=\'portrait-image-placeholder\'></div>'"></div>
-            <span class="portrait-name">Jing Wang</span>
-            <span class="portrait-affiliation">HKUST</span>
-            <span class="portrait-group-label">RA</span>
-          </a>
-        </div>
       </div>
 
       <h2>Alumni</h2>
-      <div class="grid portrait-card-grid" style="--repeat: 5;">
+      <div class="grid portrait-card-grid">
         <div class="portrait-wrapper portrait-group--alumni">
           <a href="https://ziweicong.github.io/" class="portrait" target="_blank" rel="noopener noreferrer">
             <div class="portrait-image-box"><img src="../images/ziwei_cong.jpg" class="portrait-image" alt="Ziwei Cong" loading="lazy" onerror="this.outerHTML='<div class=\'portrait-image-placeholder\'></div>'"></div>
@@ -138,13 +138,13 @@
       </div>
     </section>
   </main>
-  <footer class="background has-bg" data-size="wide" style="--image: url('../images/lab.png')">
+  <footer class="background has-bg" data-size="wide" style="background-color:#2a2a2a;background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../images/lab.png');background-size:cover;background-repeat:no-repeat;background-position:50% 50%">
     <div>
       <a class="button" href="mailto:jialiu@ust.hk" data-style="bare" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
       <a class="button" href="https://orcid.org/0000-0002-0279-724X" data-style="bare" aria-label="ORCID"><i class="fa-brands fa-orcid"></i></a>
       <a class="button" href="https://scholar.google.com/citations?user=25p7qyQAAAAJ" data-style="bare" aria-label="Google Scholar"><i class="fa-brands fa-google"></i></a>
     </div>
-    <div>&copy; 2026 NEXUS Lab | Built with Lab Website Template</div>
+    <div>&copy; 2026 NEXUS Lab</div>
     <input type="checkbox" class="dark-toggle" aria-label="Dark mode" oninput="onDarkToggleChange(event)">
   </footer>
   <script src="../js/dark-mode.js"></script>
