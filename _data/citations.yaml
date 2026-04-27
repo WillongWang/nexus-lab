@@ -1,5 +1,18 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1287/mksc.2024.1090
+  title: 'Unraveling Multifaceted User Preferences on Digital Platforms: A Bayesian
+    Deep-Learning Approach'
+  authors:
+  - Mingzhang Yin
+  - Ziwei Cong
+  - Jia Liu
+  publisher: Marketing Science
+  date: '2026-04-21'
+  link: https://doi.org/hbzkm7
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/00222429251343590
   title: 'Dynamic Effects of TV Ad Suspension on Keyword Search: Evidence from the
     U.S. Telecom Industry'
