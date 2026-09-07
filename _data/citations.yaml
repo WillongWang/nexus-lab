@@ -1,5 +1,18 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1287/mksc.2024.1090
+  title: 'Unraveling Multifaceted User Preferences on Digital Platforms: A Bayesian
+    Deep-Learning Approach'
+  authors:
+  - Mingzhang Yin
+  - Ziwei Cong
+  - Jia Liu
+  publisher: Marketing Science
+  date: '2026-04-21'
+  link: https://doi.org/hbzkm7
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/00222429251343590
   title: 'Dynamic Effects of TV Ad Suspension on Keyword Search: Evidence from the
     U.S. Telecom Industry'
@@ -13,6 +26,53 @@
   orcid: 0000-0002-0279-724X
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.2139/ssrn.5052927
+  title: 'The Effects of Search Interface on Consumer Preferences: Evidence from a
+    Randomized Experiment'
+  authors:
+  - Jia Liu
+  - Olivier Toubia
+  publisher: Elsevier BV
+  date: '2025-01-01'
+  link: https://doi.org/hcfwjx
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.4790799
+  title: 'Probabilistic Machine Learning: New Frontiers for Modeling Consumers and
+    their Choices'
+  authors:
+  - Ryan Dew
+  - Nicolas Padilla
+  - Lan E. Luo
+  - Shin Oblander
+  - Asim Ansari
+  - Khaled Boughanmi
+  - Michael Braun
+  - Fred M. Feinberg
+  - Jia Liu
+  - Thomas Otter
+  - Longxiu Tian
+  - Yixin Wang
+  - Mingzhang Yin
+  publisher: Elsevier BV
+  date: '2024-01-01'
+  link: https://doi.org/hcfwjz
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.4735412
+  title: 'Search Bubble: How Search Refinement Tools Shape Consumer Search, Choice,
+    and Preferences'
+  authors:
+  - Jia Liu
+  - Olivier Toubia
+  publisher: Elsevier BV
+  date: '2024-01-01'
+  link: https://doi.org/hcfwj2
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/00222437221134237
   title: 'The Daily Me Versus the Daily Others: How Do Recommendation Algorithms Change
     User Interests? Evidence from a Knowledge-Sharing Platform'
@@ -22,6 +82,20 @@
   publisher: Journal of Marketing Research
   date: '2023-02-12'
   link: https://doi.org/g8xgsr
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.4574336
+  title: 'Consumer Responses to ''Favorite'' Product Removal: Evidence from Beverage
+    Vending Machines'
+  authors:
+  - Andrew T. Ching
+  - Kohei Kawaguchi
+  - Jia Liu
+  - Yi Zhang
+  publisher: Elsevier BV
+  date: '2023-01-01'
+  link: https://doi.org/hcfwj3
   orcid: 0000-0002-0279-724X
   plugin: orcid.py
   file: orcid.yaml
@@ -57,6 +131,44 @@
   orcid: 0000-0002-0279-724X
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.2139/ssrn.3880164
+  title: 'Dynamic Effects of TV Ad Suspension on Keyword&amp;nbsp;Search: Evidence
+    from the U.S. Telecom Industry'
+  authors:
+  - Jia Liu
+  - Shawndra Hill
+  - David M. Rothschild
+  publisher: Elsevier BV
+  date: '2021-01-01'
+  link: https://doi.org/hcfwj4
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.3878605
+  title: 'From Live to Recording: Consumer Demand and Response to Price Across the
+    Livestreaming Lifecycle'
+  authors:
+  - Ziwei CONG
+  - Jia Liu
+  - Puneet Manchanda
+  publisher: Elsevier BV
+  date: '2021-01-01'
+  link: https://doi.org/hb6vzv
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.3764396
+  title: 'The Daily Me versus The Daily Others: How Do Recommendation Algorithms Change
+    User Interests? Evidence from a Knowledge-Sharing Platform'
+  authors:
+  - Jia Liu
+  - Ziwei CONG
+  publisher: Elsevier BV
+  date: '2021-01-01'
+  link: https://doi.org/hcfwj5
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1177/0022243720911894
   title: Understanding Consumer Dynamic Decision Making Under Competing Loyalty Programs
   authors:
@@ -65,6 +177,30 @@
   publisher: Journal of Marketing Research
   date: '2020-04-10'
   link: https://doi.org/ghg7mf
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.3670024
+  title: 'Moment Marketing: Measuring Dynamics in Cross-Channel Ad Effectiveness'
+  authors:
+  - Jia Liu
+  - Shawndra Hill
+  publisher: Elsevier BV
+  date: '2020-01-01'
+  link: https://doi.org/hcfwj6
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.3714425
+  title: The Joint Impact of Revenue-based Loyalty Program and Promotions on Consumer
+    Purchase Behavior
+  authors:
+  - Jia Liu
+  - Asim Ansari
+  - Leonard Lee
+  publisher: Elsevier BV
+  date: '2020-01-01'
+  link: https://doi.org/hcfwj7
   orcid: 0000-0002-0279-724X
   plugin: orcid.py
   file: orcid.yaml
@@ -88,6 +224,30 @@
   publisher: Marketing Science
   date: '2018-11-01'
   link: https://doi.org/gh7hhx
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.2705069
+  title: A Semantic Approach for Estimating Consumer Content Preferences from Online
+    Search Queries
+  authors:
+  - Jia Liu
+  - Olivier Toubia
+  publisher: Elsevier BV
+  date: '2015-01-01'
+  link: https://doi.org/hcfwj8
+  orcid: 0000-0002-0279-724X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2139/ssrn.2675331
+  title: How do Consumers Form Online Search Queries? The Importance of Activation
+    Probabilities between Queries and Results
+  authors:
+  - Jia Liu
+  - Olivier Toubia
+  publisher: Elsevier BV
+  date: '2015-01-01'
+  link: https://doi.org/hcfwj9
   orcid: 0000-0002-0279-724X
   plugin: orcid.py
   file: orcid.yaml
